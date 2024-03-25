@@ -10,5 +10,7 @@ IrReceiver.printIRSendUsage(&Serial);  **_// Print the statement required to sen
 
 # key commands
 > [!NOTE]
-> use the **IrReceiver.printIRResultShort(&Serial); // Print complete received data in one line** to find the command of the specific remote key.
-![Command code](/images/commandpart.png)
+> use the **IrReceiver.printIRResultShort(&Serial);
+> // Print complete received data in one line** to find the command of the specific remote key.
+>
+> ![Command code](/images/commandpart.png)
