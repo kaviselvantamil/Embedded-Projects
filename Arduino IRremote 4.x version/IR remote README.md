@@ -8,9 +8,13 @@ IrReceiver.printIRResultShort(&Serial); **_// Print complete received data in on
 
 IrReceiver.printIRSendUsage(&Serial);  **_// Print the statement required to send this data_**
 
-# key commands
+
 > [!NOTE]
+> # key commands
 > use the **IrReceiver.printIRResultShort(&Serial);
 > // Print complete received data in one line** to find the command of the specific remote key.
 >
 > ![Command code](images/commandpart.png)
+>
+> # Circuit for IR Remote
+>![irremoteckt](images/IRremotecircuit.png)
