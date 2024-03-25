@@ -3,7 +3,6 @@
 
 int led = 8; //LED
 
-
 void setup()
 {
   Serial.begin(9600);
@@ -24,12 +23,10 @@ void loop() {
       case 0x10: // press 1 to turn ON light 
         digitalWrite(led, HIGH);
         break;
-      case 0xc: // Replace with your remote's button code for LED off
+      case 0xc: // press 0 to turn OFF light 
         digitalWrite(led, LOW);
         break;
     }
-    
     IrReceiver.resume(); // Enable receiving of the next value
   }
-  
 }
